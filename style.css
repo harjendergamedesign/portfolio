@@ -751,7 +751,11 @@ section{ position:relative; padding:150px var(--gutter); max-width:var(--contain
 .site-footer__inner{
   max-width:var(--container); margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
   font-family:var(--f-mono); font-size:11.5px; letter-spacing:0.05em; color:var(--ink-faint);
+  align-items:center;
 }
+.site-footer__links{ display:flex; gap:20px; }
+.site-footer__links a{ color:var(--ink-faint); transition:color 0.25s; text-decoration:none; }
+.site-footer__links a:hover{ color:var(--gold-bright); }
 
 /* ==========================================================================
    REVEAL / MOTION HELPERS
